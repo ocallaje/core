@@ -6579,6 +6579,12 @@
       "config_flow": true,
       "iot_class": "calculated"
     },
+    "dummy_garage": {
+      "name": "Dummy Garage",
+      "integration_type": "helper",
+      "config_flow": false,
+      "iot_class": "local_polling"
+    },
     "group": {
       "integration_type": "helper",
       "config_flow": true,
